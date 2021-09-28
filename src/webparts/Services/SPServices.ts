@@ -16,6 +16,8 @@ export class SPOperations {
                     })
                 })
                 resolve(listTitles);
+                alert('hi');
+
             }, (error: any) => {
                 reject("Error occured" + error)
             })
